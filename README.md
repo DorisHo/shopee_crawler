@@ -148,7 +148,7 @@ df_brand["Store_Num"] = groupB["Store_Name"].nunique() # 販售店家數量
 df_brand.drop(columns=["Sales_Volume"], inplace=True)
 df_brand.drop(["其他"], axis=0, inplace=True)
 ```
-- 品牌資料標準化
+- 品牌資料標準化<br>
 後面會有品牌排名，將資料標準化後較好去做比較
 ```python
 df_brand_copy = df_brand.copy()
