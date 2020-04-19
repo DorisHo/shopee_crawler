@@ -124,7 +124,7 @@ df["Star"] = df["Star"].astype("float")
 df["Store_RateCount"] = df["Store_RateCount"].astype("int")
 df["Store_RateValue"] = df["Store_RateValue"].astype("float")
 ```
-- 資料清洗
+- 資料清洗<br>
 資料完整度高，僅把未寫品牌的列刪除
 ```python
 df = df[~df["Brand"].isin(["其他"])]
